@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "figtree";
+    font-size: 16px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid blacK 2px;
+    border-radius: 12px;
+    max-width: 375px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 8rem auto 2rem auto;
+    box-shadow: 6px 6px;
+    padding: 1rem;
+}
+
+img{
+    border-radius: 12px;
+}
+
+.kuning{
+    border: transparent 2px;
+    border-radius: 4px;
+    margin: 12px 0;
+    padding: 8px;
+    background-color: hsl(47, 88%, 63%);
+    max-width: 85px;
+}
+
+h2{
+    margin: 1rem 0;
+    cursor: pointer;
+    color: hsl(0, 0%, 7%);
+}
+
+h2:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.info{
+    color: hsl(0, 0%, 42%);
+    line-height: 1.8;
+}
+
+.avatar{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.avatar img{
+    height: 2em;
+    padding: 0 12px 0 0;
+}
